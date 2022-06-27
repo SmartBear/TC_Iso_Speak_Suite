@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Mods_Sanity" key="{9E0C7DFE-226A-4463-933A-A2AB62F92904}" path="Mods_Sanity.py" />
+		<child name="Tests_Sanity" key="{1B19260A-F119-4655-BA36-CE31243DA538}" path="Tests_Sanity.py" />
+		<child name="Tests_Utilities" key="{0A06A796-657D-41E0-A0F6-283394B69F43}" path="Tests_Utilities.py" />
+	</children>
+</Root>

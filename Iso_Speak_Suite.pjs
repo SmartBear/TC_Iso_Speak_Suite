@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{1AFDCDF3-E44C-4DD0-81E4-50BA1C79C9D1}">
+	<children>
+		<folder name="Iso_Speak_Projects">
+			<child name="Iso_Speak_Desktop_Training_Project" key="{31385F37-14ED-46BA-A0D8-E84F6844C91E}" path="Iso_Speak_Desktop_Training_Project\Iso_Speak_Desktop_Training_Project.mds" />
+			<child name="Iso_Speak_Web_Training_Project" key="{74868646-1654-49B4-8A6A-9F60A48B42B1}" path="Iso_Speak_Web_Training_Project\Iso_Speak_Web_Training_Project.mds" />
+		</folder>
+		<folder name="Utility_Projects" />
+	</children>
+	<testItems key="{F6690942-F2DD-4E29-8D3E-7BECEFCE96E0}">
+		<children>
+			<testItem key="{31385F37-14ED-46BA-A0D8-E84F6844C91E}" enabled="True" timeout="0" stopOnError="False" description="" />
+			<testItem key="{74868646-1654-49B4-8A6A-9F60A48B42B1}" enabled="True" timeout="0" stopOnError="False" description="" />
+		</children>
+	</testItems>
+	<variables key="{47AD1DE3-2D88-4B66-89AA-F79D23D06E80}" />
+	<analysis key="{9A065559-88E7-463F-BEBB-014E9D53D0C1}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>

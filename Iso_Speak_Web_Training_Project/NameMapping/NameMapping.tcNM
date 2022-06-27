@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{047C6F20-A1C1-4307-A824-BEF0D4B5816C}">
+				<TypeInfo Item0="{B4E9E028-58D2-427E-BB4E-8E08CF61CB56}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{6DF1E386-200F-41C6-92BD-051A296148FC}">
+						<TypeInfo Item0="{7CA83496-4CCC-465A-8BE5-2572C62EA9B7}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageSingleCellProteomicsTheSuper" Key="{149791CD-570A-415E-B353-AB7F2FBD7194}">
+								<Image FileName="-969315750" Left="8" Top="111" Right="1928" Bottom="1007" />
+								<TypeInfo Item0="{305A878C-8C2E-44DA-9F61-A8FC58C2BCBD}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://isoplexis.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{566976B0-634C-4002-B74F-E99C5540CAC5}">
+										<Image FileName="-969315750" Left="8" Top="111" Right="1911" Bottom="205" />
+										<TypeInfo Item0="{0034BE19-C64B-4F3E-9745-AA19260E6C48}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Superhuman Biology&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;fusion-header-wrapper&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkIsoplexisCom" Key="{024C6F66-5288-4982-86C0-A7EE6F82D24F}">
+										<Image FileName="-969315750" Left="340" Top="146" Right="490" Bottom="184" />
+										<TypeInfo Item0="{7076E577-3A20-4A23-B200-C62E024D28B1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;fusion-logo-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionContent" Key="{D57CD94A-ED37-4B40-B1D3-0FB2F2A5AFE9}">
+										<Image FileName="1801224654" Left="0" Top="103" Right="1903" Bottom="10558" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;The&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;full-width&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@id=&apos;main&apos;]//section" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@id=&apos;main&apos;]/div/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{A1AE036D-841A-4E0D-B2FF-9959535CE606}">
+										<Image FileName="1801224654" Left="322" Top="425" Right="1022" Bottom="609" />
+										<TypeInfo Item0="{5FE4BBA5-A370-49DF-ABE2-F7E828ADC103}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;hero-headline-description&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{68E4E44E-E32C-4664-B3FA-3E5095C2A745}">
+										<Image FileName="-1032042481" Left="0" Top="103" Right="1903" Bottom="11023" />
+										<TypeInfo Item0="{5FE4BBA5-A370-49DF-ABE2-F7E828ADC103}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//body[contains(., &apos;The Single-Cell Secretome: Cytokines, Chemokines, Growth Factors&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[contains(@class, &apos;home&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{A79EA7AE-22EC-44A0-9DE9-71DAE472973D}">
+								<Image FileName="1801224654" Left="-8" Top="-8" Right="1928" Bottom="1007" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{6DF1E386-200F-41C6-92BD-051A296148FC}">
+			<Child Name="pageSingleCellProteomicsTheSuper" Owner="{149791CD-570A-415E-B353-AB7F2FBD7194}">
+				<Child Name="header" Owner="{566976B0-634C-4002-B74F-E99C5540CAC5}">
+					<Child Name="linkIsoplexisCom" Owner="{024C6F66-5288-4982-86C0-A7EE6F82D24F}" />
+				</Child>
+				<Child Name="sectionContent" Owner="{D57CD94A-ED37-4B40-B1D3-0FB2F2A5AFE9}">
+					<Child Name="panel" Owner="{A1AE036D-841A-4E0D-B2FF-9959535CE606}" />
+				</Child>
+				<Child Name="textnode" Owner="{68E4E44E-E32C-4664-B3FA-3E5095C2A745}" />
+			</Child>
+			<Child Name="BrowserWindow" Owner="{A79EA7AE-22EC-44A0-9DE9-71DAE472973D}" />
+		</Child>
+	</LogicalNodes>
+</Root>

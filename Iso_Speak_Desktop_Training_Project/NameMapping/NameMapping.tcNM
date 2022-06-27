@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{25FBEA3B-95DB-400D-852A-50542CD1A8BD}">
+				<TypeInfo Item0="{58EF6558-AB7B-46CA-A16E-DF5A4F160D46}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="Orders" Key="{380BBD28-50B6-49C2-9C3B-55E364AB7A36}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Orders" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="MainForm" Key="{93284FF2-5F7B-4580-A379-CF36BBFBD9ED}">
+								<Image FileName="1346935539" Left="0" Top="0" Right="608" Bottom="408" />
+								<TypeInfo Item0="{B8323C00-1E99-4E90-BC8C-20DDD7704698}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="MainForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ToolBar" Key="{B8AEEEC1-9650-432F-ABA1-8026D81FC263}">
+										<Image FileName="-1963680092" Left="8" Top="51" Right="600" Bottom="79" />
+										<TypeInfo Item0="{0745B4B4-97F1-4639-8E2A-7AA65EC454FD}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="ToolBar" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgWarning" Key="{6EFEFD9B-A2A4-4CD2-ADA6-113A68AFB0C2}">
+								<Image FileName="-235709328" Left="0" Top="0" Right="254" Bottom="149" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Warning" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnOK" Key="{6B859C99-E133-49D7-A36E-41727778C4F5}">
+										<Image FileName="-235709328" Left="161" Top="114" Right="236" Bottom="137" />
+										<TypeInfo Item0="{1E3F6769-9CF2-428F-A3C9-1C913F26CF3E}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="OK" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgSaveAs" Key="{89D20DFD-33EF-4926-9FF3-663B830C0F06}">
+								<Image FileName="882039553" Left="0" Top="0" Right="960" Bottom="540" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Save As" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnCancel" Key="{B69783AE-131B-40C4-BC37-4858AD4A89ED}">
+										<Image FileName="-84693632" Left="847" Top="494" Right="935" Bottom="520" />
+										<TypeInfo Item0="{1E3F6769-9CF2-428F-A3C9-1C913F26CF3E}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Cancel" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="Orders" Owner="{380BBD28-50B6-49C2-9C3B-55E364AB7A36}">
+			<Child Name="MainForm" Owner="{93284FF2-5F7B-4580-A379-CF36BBFBD9ED}">
+				<Child Name="ToolBar" Owner="{B8AEEEC1-9650-432F-ABA1-8026D81FC263}" />
+			</Child>
+			<Child Name="dlgWarning" Owner="{6EFEFD9B-A2A4-4CD2-ADA6-113A68AFB0C2}">
+				<Child Name="btnOK" Owner="{6B859C99-E133-49D7-A36E-41727778C4F5}" />
+			</Child>
+			<Child Name="dlgSaveAs" Owner="{89D20DFD-33EF-4926-9FF3-663B830C0F06}">
+				<Child Name="btnCancel" Owner="{B69783AE-131B-40C4-BC37-4858AD4A89ED}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

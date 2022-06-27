@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="Sanity">
+			<child name="Mod_Close_TestedApp" key="{4CF98AC8-BB79-4E9E-9216-93674DEB97E6}" path="Mod_Close_TestedApp.tcKDTest" />
+			<child name="Mod_Start_TestedApp" key="{0C0D5B93-4D79-4FCE-8332-FBD7B7035828}" path="Mod_Start_TestedApp.tcKDTest" />
+			<child name="Test_Basic_Open_Close_App_Via_Keyword_Template" key="{7F8FF8BC-3FEB-4AB1-B4A0-FBBA55512F99}" path="Test_Basic_Open_Close_App_Via_Keyword_Template.tcKDTest" />
+			<child name="Test_Basic_Open_Close_App_Via_Scripts_Template" key="{5B0C63CB-A827-4869-99E1-DE37BB327879}" path="Test_Basic_Open_Close_App_Via_Scripts_Template.tcKDTest" />
+		</folder>
+		<folder name="Utillity_Tests">
+			<child name="Test_Engine_Event_OnStartTest" key="{509CF604-E727-4230-9613-B7DA432FF821}" path="Test_Engine_Event_OnStartTest.tcKDTest" />
+			<child name="Test_Copy_File" key="{DF278754-21D9-4186-BF03-02D82211A27D}" path="Test_Copy_File.tcKDTest" />
+		</folder>
+		<folder name="Smoke">
+			<folder name="Home_Page_Smoke">
+				<child name="Test_Home_Page_Smoke" key="{6B98F4F6-F85D-4010-B5EE-A5A0046D8A90}" path="Test_Home_Page_Smoke.tcKDTest" />
+				<child name="Mod_Home_Page_Smoke" key="{1BABAAFB-D887-4A32-8AB6-E6831631D426}" path="Mod_Home_Page_Smoke.tcKDTest" />
+			</folder>
+			<folder name="Admin_Smoke">
+				<child name="Test_Admin_Smoke" key="{5886D98E-D7CC-4938-B9E1-9608C5984D12}" path="Test_Admin_Smoke.tcKDTest" />
+				<child name="Mod_Admin_Smoke" key="{40389A07-010B-47CA-8F8A-7265DE3CC5E8}" path="Mod_Admin_Smoke.tcKDTest" />
+			</folder>
+			<folder name="Common_Smoke">
+				<child name="Test_Common_Smoke" key="{A0E60095-0E86-4AF2-A444-F41E0827645D}" path="Test_Common_Smoke.tcKDTest" />
+				<child name="Mod_Common_Smoke" key="{CBAFA01D-60B3-41F2-BFBD-DCBC9E829A60}" path="Mod_Common_Smoke.tcKDTest" />
+			</folder>
+		</folder>
+	</children>
+</Root>
